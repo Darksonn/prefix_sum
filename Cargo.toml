@@ -7,7 +7,7 @@ description = "An implementation of the prefix sum data structure."
 repository = "https://github.com/Darksonn/prefix_sum"
 readme = "README.md"
 keywords = ["prefix", "sum", "interval", "fenwick"]
-categories = ["algorithms", "data-structure"]
+categories = ["algorithms", "data-structures"]
 license = "MIT"
 
 [dependencies]
