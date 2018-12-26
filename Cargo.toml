@@ -3,6 +3,12 @@ name = "prefix_sum"
 version = "0.1.0"
 authors = ["Alice Ryhl <alice@ryhl.io>"]
 edition = "2018"
+description = "An implementation of the prefix sum data structure."
+repository = "https://github.com/Darksonn/prefix_sum"
+readme = "README.md"
+keywords = ["prefix", "sum", "interval", "fenwick"]
+categories = ["algorithms", "data-structure"]
+license = "MIT"
 
 [dependencies]
 num-bigint = { version = "~0.2.0", optional = true }
