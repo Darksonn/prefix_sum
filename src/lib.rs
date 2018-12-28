@@ -27,6 +27,22 @@
 //!
 //! A two dimensional prefix sum is also provided in the [`sum2d`] module.
 //!
+//! ```
+//! use prefix_sum::sum2d::{PrefixSum2D, Rect};
+//!
+//! let mut sum = PrefixSum2D::new(4, 4);
+//! sum.add_rectangle(Rect::new(1, 1, 2, 2), 2);
+//! sum.add_rectangle(Rect::new(0, 0, 2, 2), 2);
+//! sum.add_rectangle(Rect::new(0, 2, 1, 2), 8);
+//!
+//! assert_eq!(sum.build().into_vec(), vec![
+//!     2, 2, 0, 0,
+//!     2, 4, 2, 0,
+//!     8, 2, 2, 0,
+//!     8, 0, 0, 0,
+//! ]);
+//! ```
+//!
 //!   [1]: https://en.wikipedia.org/wiki/Prefix_sum
 //!   [`PrefixSum`]: struct.PrefixSum.html
 //!   [`Summable`]: summable/trait.Summable.html
