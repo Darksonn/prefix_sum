@@ -1,5 +1,9 @@
 # Prefix sum
 
+[![Cargo](https://img.shields.io/crates/v/prefix_sum.svg)](https://crates.io/crates/prefix_sum)
+[![Documentation](https://docs.rs/prefix_sum/badge.svg)](https://docs.rs/prefix_sum)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Darksonn/prefix_sum/blob/master/LICENSE)
+
 This crate provides an implementation of the [prefix sum data structure][1].
 
 ## Usage
